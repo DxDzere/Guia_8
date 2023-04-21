@@ -19,7 +19,7 @@ public class Ejercicio_1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scanner leer = new Scanner(System.in).useDelimiter("\n");
+        Scanner leer = new Scanner(System.in);
        int rpta;
        double rpta2;
        CuentaBancariaServicio cbs = new CuentaBancariaServicio();
