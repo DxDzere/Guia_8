@@ -18,10 +18,10 @@ public class Ejercicio_Extra_1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Raices r = new Raices(3,10,2);
+        Raices r = new Raices(10,20,10);
         RaicesServicio rs = new RaicesServicio();
         
-        rs.obtenerRaices(r);
+        rs.calcular(r);
     }
     
 }
