@@ -28,13 +28,13 @@ public class RaicesServicio {
     
     public void obtenerRaices(Raices r){
         if(this.tieneRaices(r)){
-            
+            System.out.println(Math.sqrt(getDiscriminante(r)));
         }
     }
     
     public void obtenerRaiz(Raices r){
         if(this.tieneRaiz(r)){
-            
+            System.out.println(Math.sqrt(getDiscriminante(r)));
         }
     }
     

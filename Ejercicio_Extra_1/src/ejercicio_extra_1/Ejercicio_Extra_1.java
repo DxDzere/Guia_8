@@ -5,6 +5,9 @@
  */
 package ejercicio_extra_1;
 
+import ejercicio_extra_1.Entidades.Raices;
+import ejercicio_extra_1.Servicios.RaicesServicio;
+
 /**
  *
  * @author Zere
@@ -15,7 +18,10 @@ public class Ejercicio_Extra_1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Raices r = new Raices(3,10,2);
+        RaicesServicio rs = new RaicesServicio();
+        
+        rs.obtenerRaices(r);
     }
     
 }
